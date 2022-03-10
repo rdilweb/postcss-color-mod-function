@@ -1,10 +1,12 @@
 node_modules
 index.*.*
-package-lock.json
 *.log*
 *.result.css
 test/postcss-color-mod-function.css
 .*
+!.yarnrc.yml
+!.yarn/releases
+!.yarn/plugins
 !.appveyor.yml
 !.editorconfig
 !.gitignore

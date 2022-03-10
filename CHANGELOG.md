@@ -1,5 +1,11 @@
 # Changes to PostCSS color-mod() Function
 
+### 3.1.0 (March 10th, 2022)
+
+- Removed eslint to make the build work
+- Changed scope to `@rdil`
+- Updated dependencies
+
 ### 3.0.3 (September 23, 2018)
 
 - Fixed an issue with certain colors not being tranformed from variables
