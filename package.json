@@ -23,11 +23,11 @@
   ],
   "scripts": {
     "prepublishOnly": "yarn test",
-    "pretest": "rollup -c .rollup.js --silent",
+    "build": "rollup -c .rollup.js --silent",
     "test": "postcss-tape"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=14.0.0"
   },
   "dependencies": {
     "@csstools/convert-colors": "^1.4.0",
@@ -45,7 +45,7 @@
     "rollup-plugin-babel": "^4.4.0"
   },
   "peerDependencies": {
-    "postcss": "^8.2.15"
+    "postcss": "^8.4.8"
   },
   "keywords": [
     "postcss",
